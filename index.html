@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="script.js" defer>
+
 </head>
 <body>
    
@@ -101,6 +101,13 @@
         <span>Copyright 2021, 5 Minutes Craft</span>
       </footer>
       
-   
+   <script>
+     const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarlinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarlinks.classList.toggle('active')
+})
+   </script>
 </body>
 </html>
