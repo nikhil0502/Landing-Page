@@ -1,3 +1,3 @@
 # Landing-Page
 
-Checkout my website here : landing-page-bmqm2ok8i-nikhil0502.vercel.app
+Checkout my website here : https://landing-page-six-pi.vercel.app
